@@ -15,6 +15,7 @@
 ----
 ### 1, 导入库或arr
 第一种,将demo中主工程的libs文件夹中itemzoomrecy.aar直接拷贝到自己项目中, 在gradle中配置好此aar即可.
+
 第二种,也可以直接将项目中lib库复制到自己的项目中, 这是个module, 直接依赖此module即可, 可以随意自定义代码.
 
 ### 2, 代码中使用极其简单, 只需当做正常recyclerview使用, 激活Instagram效果只需额外两句代码:
