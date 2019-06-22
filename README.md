@@ -1,6 +1,6 @@
 # ItemZoomRecyclerView
-一个支持条目中的view放大缩小和跟手的RecyclerView, 仿Instagram图片流双手效果.
-支持图片, 视频, 或其他view, 使用非常简单.
+支持条目中的view放大缩小和跟手的RecyclerView, 仿Instagram图片流双手效果.
+特点是支持图片, 视频, 或其他view. 使用极其简单, 只需设置需要跟手的id即可
 
 项目中使用效果如下:
 ----
@@ -43,3 +43,5 @@
         recyclerView.setActivity(this);
         recyclerView.setOriId(R.id.imageview); //条目中想要被放大的view
   ```
+### 3, 项目依赖
+因为自定义的RecyclerView, 所以只依赖RecyclerView, 请确保项目中能正常使用RecyclerView即可
