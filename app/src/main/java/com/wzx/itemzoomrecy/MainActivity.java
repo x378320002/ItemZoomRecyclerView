@@ -24,8 +24,9 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(new MyAdapter());
 
+        //获取到ItemZoomRecycleView, 其他用法和原生一样, 添加以下两句即可支持手势.
         recyclerView.setActivity(this);
-        recyclerView.setOriId(R.id.imageview);
+        recyclerView.setOriId(R.id.imageview); //条目中想要被放大的view
     }
 
     public class MyHolder extends ViewHolder {
