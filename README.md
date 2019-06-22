@@ -1,6 +1,6 @@
 # ItemZoomRecyclerView
 一个支持条目中的view放大缩小和跟手的RecyclerView, 仿Instagram图片流双手效果.
-基本能完全放instagram的效果, 支持图片, 视频, 或其他view.
+支持图片, 视频, 或其他view, 使用非常简单.
 
 项目中使用效果如下:
 ----
